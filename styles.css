@@ -1,0 +1,131 @@
+.sticky-nav {
+    border-radius: 15px;
+    background-color: rgba(144, 27, 157, 0.993);
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+.sticky-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sticky-nav ul li {
+    display: inline;
+    margin-right: 170px;
+}
+.sticky-nav ul li a {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: Helvetica;
+    font-size: 140%;
+    color: aliceblue;
+    padding: 10px 20px; 
+}
+body{
+    background-color: rgb(40, 38, 38);
+    }
+.center-image{
+    text-align: center;
+    }
+.center-button{
+    text-align: center;
+}
+button{
+    background-color: rgba(144, 27, 157, 0.993);
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-width: 5px;
+    font-family: Helvetica;
+    color: aliceblue;
+    height: 50px;
+    font-size: 160%;
+    
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 350%;
+    font-family: Helvetica;
+    }
+h2{
+    text-align: left; 
+    margin-left: 150px;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: Helvetica;
+    }
+h3{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Helvetica;
+    color: aliceblue;
+    font-size: 180%;
+    }
+h4{
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    font-family: Helvetica;
+    color: aliceblue;
+    font-size: 160%;
+    }
+p{
+    margin-left: 150px;
+    text-align: left;
+    font-family:Helvetica;
+    color: aliceblue;
+    }
+    form{
+        display: flex;
+        flex-direction: column; 
+        max-width: 1600px;
+        padding:0 150px;
+     
+    }
+    input{
+        border-color: rgba(144, 27, 157, 0.993);
+        background-color: rgb(201, 184, 202);
+        border-width: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 120%;
+        font-family: Helvetica;
+        color: black;
+    }
+hr{
+    margin: 150px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    width: 300px;
+    }
+    .img1 {
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
+        border: 5px solid rgba(144, 27, 157, 0.993);
+    }
+    .img2{
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-right: 150px;
+        border: 5px solid rgba(144, 27, 157, 0.993);
+    }
+    .right-image{
+        text-align: right;
+    }
+    .purple-bar{
+        background-color: rgba(144, 27, 157, 0.993);
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 80px;
+        height: 50px;
+    }
+footer{
+    background-color: rgba(144, 27, 157, 0.993);
+    text-align: center;
+    font-family: Helvetica;
+    color: aliceblue;
+    padding: 20px;
+    }
